@@ -1,0 +1,14 @@
+{
+    "name": "Development container - python3",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": "..",
+        "args": {
+            "VARIANT": "3",
+        }
+    },
+    "features": {
+		"git": "latest",
+		"homebrew": "latest"
+	}
+}
